@@ -6,8 +6,12 @@
 //
 
 /// Предоставляет список заданий.
-final class TaskManager {
+public final class TaskManager {
 	private var taskList = [Task]()
+	
+	public init(taskList: [Task] = [Task]()) {
+		self.taskList = taskList
+	}
 
 	/// Список всех заданий.
 	/// - Returns: Массив заданий.

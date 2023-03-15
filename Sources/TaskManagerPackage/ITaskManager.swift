@@ -6,7 +6,7 @@
 //
 
 /// Протокол для TaskManager
-protocol ITaskManager {
+public protocol ITaskManager {
 	func allTasks() -> [Task]
 	func completedTasks() -> [Task]
 	func uncompletedTasks() -> [Task]

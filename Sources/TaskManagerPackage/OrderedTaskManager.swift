@@ -11,7 +11,7 @@ import Foundation
 public final class OrderedTaskManager: ITaskManager {
 	let taskManager: ITaskManager
 
-	init(taskManager: ITaskManager) {
+	public init(taskManager: ITaskManager) {
 		self.taskManager = taskManager
 	}
 
