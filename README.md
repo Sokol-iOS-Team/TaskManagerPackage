@@ -15,8 +15,8 @@
 
 ```
 cd ~/Developer
-git clone https://github.com/some/TodoList.git
-cd ./TodoList
+git clone https://github.com/Sokol-iOS-Team/TaskManagerPackage.git
+cd ./TaskManagerPackage
 xed .
 ```
 ## Features
