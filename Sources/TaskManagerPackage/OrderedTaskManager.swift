@@ -8,7 +8,7 @@
 import Foundation
 
 /// Предоставляет список заданий, отсортированных по приоритету.
-final class OrderedTaskManager: ITaskManager {
+public final class OrderedTaskManager: ITaskManager {
 	let taskManager: ITaskManager
 
 	init(taskManager: ITaskManager) {
